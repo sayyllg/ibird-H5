@@ -1,0 +1,26 @@
+.header .parting-line {
+  position: absolute;
+  right: 0;
+  top: 1.5700483092rem;
+  width: 1px;
+  height: 3.1400966184rem;
+}
+.header .parting-line:before {
+  content: '';
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  border-left: 1px solid #e7e7e7;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
